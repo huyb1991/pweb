@@ -1,0 +1,43 @@
+.book {
+  &-heading {
+    height: 200px;
+    background-size: cover;
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+  }
+  &-title {
+    height: 2em;
+    overflow: hidden;
+  }
+  &-status {
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+    &-reading {
+      background-color: #eee;
+      &::before {
+        @include create-icon-font($font-fe, '\e806', initial) 
+      }
+    }
+    &-done {
+      background-color: $color-success;
+      color: #fff;
+      &::before {
+        @include create-icon-font($font-fe, '\e804', initial) 
+      }
+    }
+    &-problem {
+      background-color: $color-danger;
+      color: #fff;
+      &::before {
+        @include create-icon-font($font-fe, '\e805', initial) 
+      }
+    }
+  }
+}
