@@ -1,104 +1,104 @@
 [
-    {
-        "id": 17,
-        "title": "A Successful Git Branching Model",
-        "url": "http://nvie.com/posts/a-successful-git-branching-model/",
-        "date": "Jan 30, 2016"
-    },
-    {
-        "id": 16,
-        "title": "A Little Bit Each Day",
-        "url": "http://nathanbarry.com/a-little-bit-each-day/",
-        "date": "Jan 09, 2016"
-    },
-    {
-        "id": 15,
-        "title": "The Ultimate Guide To Learning Anything Faster",
-        "url": "http://thenextweb.com/lifehacks/2015/06/07/the-ultimate-guide-to-learning-anything-faster/",
-        "date": "Dec 31, 2015"
-    },
-    {
-        "id": 14,
-        "title": "How to Read an Entire Book in a Single Day",
-        "url": "http://lifehacker.com/how-to-read-an-entire-book-in-a-single-day-1749070044",
-        "date": "Dec 25, 2015"
-    },
-    {
-        "id": 13,
-        "title": "How to Time Travel",
-        "url": "https://medium.com/@bchesky/how-to-time-travel-b604096d5ed0",
-        "date": "Dec 25, 2015"
-    },
-    {
-        "id": 12,
-        "title": "Code and Life",
-        "url": "https://medium.com/life-learning/code-life-1a44121290a1",
-        "date": "Dec 25, 2015"
-    },
-    {
-        "id": 11,
-        "title": "12 Good, Bad and Ugly Web Design Trends for 2016",
-        "url": "http://searchenginewatch.com/sew/review/2438285/12-good-bad-and-ugly-web-design-trends-for-2016",
-        "date": "Dec 24, 2015"
-    },
-    {
-        "id": 10,
-        "title": "9 Principles of Mobile Web Design",
-        "url": "http://blog.hubspot.com/marketing/9-mobile-web-design-principles",
-        "date": "Dec 18, 2015"
-    },
-    {
-        "id": 9,
-        "title": "Fake data for REST-API",
-        "url": "http://reqres.in/",
-        "date": "Dec 16, 2015"
-    },
-    {
-        "id": 8,
-        "title": "Meteor - Full stack JavaScript",
-        "url": "https://www.meteor.com/",
-        "date": "Dec 05, 2015"
-    },
-    {
-        "id": 7,
-        "title": "Top 9 Animation Libraries to Use in 2016",
-        "url": "http://www.sitepoint.com/top-9-animation-libraries-use-2016/",
-        "date": "Dec 03, 2015"
-    },
-    {
-        "id": 6,
-        "title": "5 Secrets To Awesome User Design",
-        "url": "http://thenextweb.com/uxdesign/2015/12/01/5-secrets-to-awesome-user-design/",
-        "date": "Dec 03, 2015"
-    },
-    {
-        "id": 5,
-        "title": "Scalable and Modular Architecture for CSS",
-        "url": "https://smacss.com/",
-        "date": "Sep 12, 2015"
-    },
-    {
-        "id": 4,
-        "title": "How we ended up with microservices",
-        "url": "http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html",
-        "date": "Sep 10, 2015"
-    },
-    {
-        "id": 3,
-        "title": "This Is Why You Should Do Bridges Every Day",
-        "url": "http://www.lifehack.org/320887/this-why-you-should-bridges-every-day?ref=fbp&n=1",
-        "date": "Sep 02, 2015"
-    },
-    {
-        "id": 2,
-        "title": "How Often Do You Try New Things?",
-        "url": "http://tympanus.net/codrops/2011/12/29/how-often-do-you-try-new-things/",
-        "date": "Aug 23, 2015"
-    },
-    {
-        "id": 1,
-        "title": "Web Animations API",
-        "url": "http://danielcwilson.com/blog/2015/07/animations-intro/",
-        "date": "Aug 11, 2015"
-    }
+  {
+    "id": 17,
+    "title": "A Successful Git Branching Model",
+    "url": "http://nvie.com/posts/a-successful-git-branching-model/",
+    "date": "2016-01-30"
+  },
+  {
+    "id": 16,
+    "title": "A Little Bit Each Day",
+    "url": "http://nathanbarry.com/a-little-bit-each-day/",
+    "date": "2016-01-09"
+  },
+  {
+    "id": 15,
+    "title": "The Ultimate Guide To Learning Anything Faster",
+    "url": "http://thenextweb.com/lifehacks/2015/06/07/the-ultimate-guide-to-learning-anything-faster/",
+    "date": "2015-12-31"
+  },
+  {
+    "id": 14,
+    "title": "How to Read an Entire Book in a Single Day",
+    "url": "http://lifehacker.com/how-to-read-an-entire-book-in-a-single-day-1749070044",
+    "date": "2015-12-25"
+  },
+  {
+    "id": 13,
+    "title": "How to Time Travel",
+    "url": "https://medium.com/@bchesky/how-to-time-travel-b604096d5ed0",
+    "date": "2015-12-25"
+  },
+  {
+    "id": 12,
+    "title": "Code and Life",
+    "url": "https://medium.com/life-learning/code-life-1a44121290a1",
+    "date": "2015-12-25"
+  },
+  {
+    "id": 11,
+    "title": "12 Good, Bad and Ugly Web Design Trends for 2016",
+    "url": "http://searchenginewatch.com/sew/review/2438285/12-good-bad-and-ugly-web-design-trends-for-2016",
+    "date": "2015-12-24"
+  },
+  {
+    "id": 10,
+    "title": "9 Principles of Mobile Web Design",
+    "url": "http://blog.hubspot.com/marketing/9-mobile-web-design-principles",
+    "date": "2015-12-18"
+  },
+  {
+    "id": 9,
+    "title": "Fake data for REST-API",
+    "url": "http://reqres.in/",
+    "date": "2015-12-12"
+  },
+  {
+    "id": 8,
+    "title": "Meteor - Full stack JavaScript",
+    "url": "https://www.meteor.com/",
+    "date": "2015-12-05"
+  },
+  {
+    "id": 7,
+    "title": "Top 9 Animation Libraries to Use in 2016",
+    "url": "http://www.sitepoint.com/top-9-animation-libraries-use-2016/",
+    "date": "2015-12-03"
+  },
+  {
+    "id": 6,
+    "title": "5 Secrets To Awesome User Design",
+    "url": "http://thenextweb.com/uxdesign/2015/12/01/5-secrets-to-awesome-user-design/",
+    "date": "2015-12-03"
+  },
+  {
+    "id": 5,
+    "title": "Scalable and Modular Architecture for CSS",
+    "url": "https://smacss.com/",
+    "date": "2015-09-12"
+  },
+  {
+    "id": 4,
+    "title": "How we ended up with microservices",
+    "url": "http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html",
+    "date": "2015-09-10"
+  },
+  {
+    "id": 3,
+    "title": "This Is Why You Should Do Bridges Every Day",
+    "url": "http://www.lifehack.org/320887/this-why-you-should-bridges-every-day?ref=fbp&n=1",
+    "date": "2015-09-02"
+  },
+  {
+    "id": 2,
+    "title": "How Often Do You Try New Things?",
+    "url": "http://tympanus.net/codrops/2011/12/29/how-often-do-you-try-new-things/",
+    "date": "2015-08-23"
+  },
+  {
+    "id": 1,
+    "title": "Web Animations API",
+    "url": "http://danielcwilson.com/blog/2015/07/animations-intro/",
+    "date": "2015-08-11"
+  }
 ]

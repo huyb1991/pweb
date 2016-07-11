@@ -1,0 +1,14 @@
+.bookmark {
+  margin-bottom: 1rem;
+  @include clear-fix();
+  &:hover {
+    border-bottom: 1px dotted #b1b1b1;
+  }
+  &-title {
+    float: left;
+  }
+  &-date {
+    float: right;
+    text-align: right;
+  }
+}
