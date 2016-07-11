@@ -21,12 +21,6 @@
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'), url($font-path + 'Roboto400.woff2') format('woff2');
 }
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url($font-path + 'Roboto700.woff2') format('woff2');
-}
 .fe {
   font-family: "fontello";
   font-style: normal;
