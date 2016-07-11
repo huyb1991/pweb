@@ -1,0 +1,21 @@
+[class^="col-"] {
+  padding:    0 ($grid-column-spacing / 2);
+  min-height: 1px;
+  position: relative;
+  @include    box-sizing(border-box);
+}
+
+.row {
+  margin: 0 (-$grid-column-spacing / 2);
+  @include clear-fix();
+}
+
+@media (max-width: $screen-sm-max - 1) {
+  @include make-grid('sm');
+}
+@media (min-width: $screen-sm-max) {
+  @include make-grid('md');
+}
+@media (min-width: $screen-md-max) {
+  @include make-grid('lg');
+}

@@ -1,0 +1,21 @@
+.project {
+  &-img {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    display: block;
+  }
+  &-footer {
+    margin-top: 1rem;
+    min-height: 4em;
+  }
+  &-skill {
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    font-size: .8em;
+    display: inline-block;
+    cursor: default;
+    padding: 5px 10px;
+    line-height: 1;
+    margin: 5px;
+  }
+}

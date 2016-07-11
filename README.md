@@ -1,4 +1,7 @@
-# pweb
-Personal Website with AngularJS and Parse
+# Personal Website
+This is my personal website [huywd.com](http://huywd.com/) built with:
 
-*Note: Please update base URL in .htaccess (if you use Apache Server) and index.html
+1. [AngularJS](https://angularjs.org/)
+2. [BEM naming convention](http://getbem.com/naming/)
+3. [SaSS](http://sass-lang.com/)
+4. [Gulp](http://gulpjs.com/)

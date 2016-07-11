@@ -6,10 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="http://huywd.com/">
   <title>Huy Nguyen</title>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="icon.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="icon" href="./src/img/favicon.ico" type="image/x-icon"/>
   <link rel="canonical" href="http://huywd.com/" />
   <meta name="description" content="Huy Nguyen - Full stack Web Developer since 2010."/>
   <meta property="og:locale" content="en_US" />
@@ -18,59 +16,42 @@
   <meta property="og:description" content="Huy Nguyen - Full stack Web Developer since 2010." />
   <meta property="og:url" content="http://huywd.com/" />
   <meta property="og:site_name" content="Huy Nguyen" />
-  <meta property="og:image" content="http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/pweb_zpsyie19cbn.png" />
+  <meta property="og:image" content="./src/img/profile.png" />
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:description" content="Huy Nguyen - Full stack Web Developer since 2010."/>
   <meta name="twitter:title" content="Huy Nguyen"/>
   <meta name="twitter:site" content="@huyb1991"/>
-  <meta name="twitter:image" content="http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/pweb_zpsyie19cbn.png"/>
+  <meta name="twitter:image" content="./src/img/profile.png"/>
   <meta name="twitter:creator" content="@huyb1991"/>
   <meta itemprop="name" content="Huy Nguyen">
   <meta itemprop="description" content="Huy Nguyen - Full stack Web Developer since 2010.">
-  <meta itemprop="image" content="http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/pweb_zpsyie19cbn.png">
+  <meta itemprop="image" content="./src/img/profile.png">
 </head>
 <body>
-  <nav class="navbar" ng-controller="NavCtrl">
-    <ul>
-      <li ng-class="{ active: isActive('/')}">
-        <a href="index">
-          <i class="fa fa-user"></i>
-          <p class="hidden-xs hidden-sm">About</p>
-        </a>
-      </li>
-      <li ng-class="{ active: isActive('/projects')}">
-        <a href="projects">
-          <i class="fa fa-tasks"></i>
-          <p class="hidden-xs hidden-sm">Projects</p>
-        </a>
-      </li>
-      <li ng-class="{ active: isActive('/books')}">
-        <a href="books">
-          <i class="fa fa-book"></i>
-          <p class="hidden-xs hidden-sm">Books</p>
-        </a>
-      </li>
-      <li ng-class="{ active: isActive('/bookmarks')}">
-        <a href="bookmarks">
-          <i class="fa fa-star"></i>
-          <p class="hidden-xs hidden-sm">Bookmarks</p>
-        </a>
-      </li>
-      <div class="clear-both"></div>
-    </ul>  
+  <nav class="nav-main" ng-controller="NavCtrl">
+    <a href="./" class="nav-item" ng-class="{ active: isActive('/')}">
+      <i class="nav-icon fe fe-user"></i> About
+    </a>
+    <a href="./projects" class="nav-item" ng-class="{ active: isActive('/projects')}">
+      <i class="nav-icon fe fe-th-large-outline"></i> Projects
+    </a>
+    <a href="./books" class="nav-item" ng-class="{ active: isActive('/books')}">
+      <i class="nav-icon fe fe-book"></i> Books
+    </a>
+    <a href="./bookmarks" class="nav-item" ng-class="{ active: isActive('/bookmarks')}">
+      <i class="nav-icon fe fe-bookmark"></i> Bookmarks
+    </a>
   </nav>
   <div class="container">
     <div ng-view></div>
-    <div class="clear-both"></div>
-    <footer class="footer">
-      <p>Built with <a href="https://angularjs.org/" title="AngularJS" target="_blank">AngularJS</a> and <a href="https://parse.com/" title="Parse" target="_blank">Parse</a> by <a href="https://twitter.com/huyb1991" title="Huy Nguyen" target="_blank">@huyb1991</a></p>
+    <footer class="main-footer">
+      <p>Built with <a href="https://angularjs.org/" title="AngularJS" target="_blank">AngularJS</a> by <a href="https://twitter.com/huyb1991" title="Huy Nguyen" target="_blank">@huyb1991</a></p>
     </footer>
   </div>
-  <!-- /.container -->
-  <script src="js/angular.min.js"></script>
-  <script src="js/angular-route.min.js"></script>
-  <script src="js/angular-animate.min.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
+  <script src="./src/js/angular.min.js"></script>
+  <script src="./src/js/angular-route.min.js"></script>
+  <script src="./src/js/angular-animate.min.js"></script>
+  <script src="./src/js/app.js"></script>
+  <script src="./src/js/controllers.js"></script>
 </body>
 </html>

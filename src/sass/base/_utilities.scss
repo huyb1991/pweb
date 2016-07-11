@@ -1,0 +1,20 @@
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.text-center {
+  text-align: center;
+}
+.box {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  border-color: #ddd;
+}

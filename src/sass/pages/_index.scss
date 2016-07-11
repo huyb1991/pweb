@@ -1,0 +1,59 @@
+.profile {
+  &-img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+  &-about {
+    font-size: 2rem;
+  }
+
+  &-social {
+    margin-top: 4rem;
+  }
+}
+
+.social {
+  &-icon {
+    margin: 8px;
+    color: #333;
+    font-size: 5rem;
+    background: #eaeaea;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 1rem 0 0 1rem;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    &:hover {
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 4px #212121;
+    }
+  }
+
+  &-StackOverflow:hover {
+    background: rgb(253, 152, 39);
+  }
+  &-GitHub:hover {
+    background: rgb(34, 30, 27);
+  }
+  &-Facebook:hover {
+    background: rgb(62, 91, 152);
+  }
+  &-Twitter:hover {
+    background: rgb(77, 167, 222);
+  }
+  &-LinkedIn:hover {
+    background: rgb(51, 113, 183);
+  }
+  &-Email:hover {
+    background: rgb(221, 75, 57);
+  }
+}
