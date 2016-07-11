@@ -1,100 +1,100 @@
 [
-    {
-        "id": 14,
-        "name": "The 50th Law",
-        "img": "http://ecx.images-amazon.com/images/I/41qMD5iI6fL._SX336_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/006177460X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006177460X&linkCode=as2&tag=persowebs08e8-20&linkId=3LOZI3MIOKA5UQ44",
-        "status": "reading"        
-    },
-    {
-        "id": 13,
-        "name": "Creator's Wisdom",
-        "img": "http://tala.tikicdn.com/cache/w232/media/catalog/product/t/i/tinh-thuc.jpg",
-        "url": "",
-        "status": "done"        
-    },
-    {
-        "id": 12,
-        "name": "The Power of Spiritual Intelligence",
-        "img": "http://ecx.images-amazon.com/images/I/51bKoH5YnOL._SX433_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/B008TGL06A/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B008TGL06A&linkCode=as2&tag=persowebs08e8-20&linkId=5EUDX5O4SKJ46F6Y",
-        "status": "done"        
-    },
-    {
-        "id": 11,
-        "name": "Tự Yêu",
-        "img": "http://tala.tikicdn.com/cache/w232/media/catalog/product/t/u/tu-yeu.jpg",
-        "url": "",
-        "status": "done"        
-    },
-    {
-        "id": 10,
-        "name": "Trên Đường Băng",
-        "img": "http://tala.tikicdn.com/cache/w232/media/catalog/product/t/o/tony-buoi-sang.jpg",
-        "url": "",
-        "status": "done"        
-    },
-    {
-        "id": 9,
-        "name": "Never Eat Alone",
-        "img": "http://ecx.images-amazon.com/images/I/41m9RrTptTL._SX327_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/0385346654/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385346654&linkCode=as2&tag=persowebs08e8-20&linkId=H3E75KGRBOJFFWPC",
-        "status": "reading"        
-    },
-    {
-        "id": 8,
-        "name": "How to Stop Worrying and Start Living",
-        "img": "http://ecx.images-amazon.com/images/I/51StUBlb0rL._SX302_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/0671733354/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671733354&linkCode=as2&tag=persowebs08e8-20&linkId=KFPAQ7NIVQWY6ONC",
-        "status": "done"        
-    },
-    {
-        "id": 7,
-        "name": "Start-up Nation",
-        "img": "http://ecx.images-amazon.com/images/I/5173ZXWMNpL._SX322_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/0446541478/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0446541478&linkCode=as2&tag=persowebs08e8-20&linkId=YWD6Y2HTKP2I5OAP",
-        "status": "done"        
-    },
-    {
-        "id": 6,
-        "name": "Câu Chuyện Nhỏ - Đạo Lý Lớn",
-        "img": "http://tala.tikicdn.com/cache/w232/media/catalog/product/h/_/h_nh_-_copy.jpg",
-        "url": "",
-        "status": "done"        
-    },
-    {
-        "id": 5,
-        "name": "One Minute for Yourself",
-        "img": "http://ecx.images-amazon.com/images/I/51dHWiWe0NL._SX331_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/0688163564/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0688163564&linkCode=as2&tag=persowebs08e8-20&linkId=AESQPTD44GPI3QAI",
-        "status": "done"        
-    },
-        {
-        "id": 4,
-        "name": "Master Your Mind, Design Your Destiny",
-        "img": "http://ecx.images-amazon.com/images/I/51d0xvB1HqL._SX311_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/B0096CH54M/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0096CH54M&linkCode=as2&tag=persowebs08e8-20&linkId=PC4KDQBFLBDQPBBD",
-        "status": "done"        
-    },
-    {
-        "id": 3,
-        "name": "Why Simplify?",
-        "img": "http://ecx.images-amazon.com/images/I/41pZmLqn9GL._SX324_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/9814270032/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=9814270032&linkCode=as2&tag=persowebs08e8-20&linkId=AM24LBAZKHVKWET6",
-        "status": "done"        
-    },
-    {
-        "id": 2,
-        "name": "Buồn Làm Sao Buông",
-        "img": "http://tala.tikicdn.com/cache/w232/media/catalog/product/b/u/buon-lam-sao-buong.jpg",
-        "url": "",
-        "status": "done"        
-    },
-    {
-        "id": 1,
-        "name": "How To Win Friends and Influence People",
-        "img": "http://ecx.images-amazon.com/images/I/51RWA6BmIWL._SX320_BO1,204,203,200_.jpg",
-        "url": "http://www.amazon.com/gp/product/0671027034/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671027034&linkCode=as2&tag=persowebs08e8-20&linkId=G5EAE7SOUZRTR7XM",
-        "status": "done"
-    }
+  {
+    "id": 14,
+    "name": "The 50th Law",
+    "img": "./src/img/books/the-50th-law.jpg",
+    "url": "http://www.amazon.com/gp/product/006177460X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006177460X&linkCode=as2&tag=persowebs08e8-20&linkId=3LOZI3MIOKA5UQ44",
+    "status": "reading"
+  },
+  {
+    "id": 13,
+    "name": "Creator's Wisdom",
+    "img": "./src/img/books/tinh-thuc.jpg",
+    "url": "",
+    "status": "done"
+  },
+  {
+    "id": 12,
+    "name": "The Power of Spiritual Intelligence",
+    "img": "./src/img/books/the-power-of-spiritual-intelligence.jpg",
+    "url": "http://www.amazon.com/gp/product/B008TGL06A/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B008TGL06A&linkCode=as2&tag=persowebs08e8-20&linkId=5EUDX5O4SKJ46F6Y",
+    "status": "done"
+  },
+  {
+    "id": 11,
+    "name": "Tự Yêu",
+    "img": "./src/img/books/tu-yeu.jpg",
+    "url": "",
+    "status": "done"
+  },
+  {
+    "id": 10,
+    "name": "Trên Đường Băng",
+    "img": "./src/img/books/tren-duong-bang.jpg",
+    "url": "",
+    "status": "done"
+  },
+  {
+    "id": 9,
+    "name": "Never Eat Alone",
+    "img": "./src/img/books/never-eat-alone.jpg",
+    "url": "http://www.amazon.com/gp/product/0385346654/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385346654&linkCode=as2&tag=persowebs08e8-20&linkId=H3E75KGRBOJFFWPC",
+    "status": "reading"        
+  },
+  {
+    "id": 8,
+    "name": "How to Stop Worrying and Start Living",
+    "img": "./src/img/books/how-to-stop-worrying-and-start-living.jpg",
+    "url": "http://www.amazon.com/gp/product/0671733354/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671733354&linkCode=as2&tag=persowebs08e8-20&linkId=KFPAQ7NIVQWY6ONC",
+    "status": "done"
+  },
+  {
+    "id": 7,
+    "name": "Start-up Nation",
+    "img": "./src/img/books/start-up-nation.jpg",
+    "url": "http://www.amazon.com/gp/product/0446541478/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0446541478&linkCode=as2&tag=persowebs08e8-20&linkId=YWD6Y2HTKP2I5OAP",
+    "status": "done"
+  },
+  {
+    "id": 6,
+    "name": "Câu Chuyện Nhỏ - Đạo Lý Lớn",
+    "img": "./src/img/books/cau-chuyen-nho-dao-ly-lon.jpg",
+    "url": "",
+    "status": "done"
+  },
+  {
+    "id": 5,
+    "name": "One Minute for Yourself",
+    "img": "./src/img/books/one-minute-for-yourself.jpg",
+    "url": "http://www.amazon.com/gp/product/0688163564/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0688163564&linkCode=as2&tag=persowebs08e8-20&linkId=AESQPTD44GPI3QAI",
+    "status": "done"
+  },
+  {
+    "id": 4,
+    "name": "Master Your Mind, Design Your Destiny",
+    "img": "./src/img/books/master-your-mind-design-your-destiny.jpg",
+    "url": "http://www.amazon.com/gp/product/B0096CH54M/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0096CH54M&linkCode=as2&tag=persowebs08e8-20&linkId=PC4KDQBFLBDQPBBD",
+    "status": "done"
+  },
+  {
+    "id": 3,
+    "name": "Why Simplify?",
+    "img": "./src/img/books/why-simplify.jpg",
+    "url": "http://www.amazon.com/gp/product/9814270032/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=9814270032&linkCode=as2&tag=persowebs08e8-20&linkId=AM24LBAZKHVKWET6",
+    "status": "done"
+  },
+  {
+    "id": 2,
+    "name": "Buồn Làm Sao Buông",
+    "img": "./src/img/books/buon-lam-sao-buong.jpg",
+    "url": "",
+    "status": "done"
+  },
+  {
+    "id": 1,
+    "name": "How To Win Friends and Influence People",
+    "img": "./src/img/books/how-to-win-friends-and-influence-people.jpg",
+    "url": "http://www.amazon.com/gp/product/0671027034/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671027034&linkCode=as2&tag=persowebs08e8-20&linkId=G5EAE7SOUZRTR7XM",
+    "status": "done"
+  }
 ]

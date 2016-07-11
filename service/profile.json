@@ -1,4 +1,4 @@
 {
-	"desc": "Hi! My name is Huy Nguyen, full-stack web developer since 2010.",
-	"avatar": "http://i1073.photobucket.com/albums/w398/huyb1991/Profile%20Picture/Yunero_zpsqsxo1orp.jpg"
+  "desc": "Hi! My name is Huy Nguyen, full-stack web developer since 2010.",
+  "avatar": "./src/img/profile.jpg"
 }

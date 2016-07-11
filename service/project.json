@@ -1,86 +1,86 @@
 [
-    {
-        "id": 12,
-        "name": "Zenithb Bank Ltd",
-        "href": "http://zenithbgroups.us/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/zenithb-bank-ltd_zpso85tfhwd.png",
-        "skills": [{"name":"PHP Smarty Template"},{"name":"PSD to HTML"},{"name":"Responsive web design"},{"name":"Bootstrap"},{"name":"jQuery"}]
-    },
-    {
-        "id": 11,
-        "name": "Exchange Zones",
-        "href": "https://exchangezones.co.in/Newlife/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/exchange-zones_zps2r3ndxca.png",
-        "skills": [{"name":"PHP Smarty Template"},{"name":"PSD to HTML"},{"name":"Responsive web design"},{"name":"Bootstrap"},{"name":"jQuery"}]
-    },
-    {
-        "id": 10,
-        "name": "Personal Website",
-        "href": "http://huywd.com/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/pweb_zpsyie19cbn.png",
-        "skills": [{"name":"AngularJS 1.5"},{"name":"Parse"},{"name":"GIT"}]
-    },
-    {
-        "id": 9,
-        "name": "The Luxury Closet",
-        "href": "http://theluxurycloset.com/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/the-luxury-closet_zpsvomfpcqf.png",
-        "skills": [{"name":"Yii 2.0"},{"name":"MySQL"},{"name":"Nginx Server"},{"name":"PHP memcached"},{"name":"Amazon Web Service"},{"name":"GIT"}]
-    },
-    {
-        "id": 8,
-        "name": "Dota Highlight",
-        "href": "http://dotahighlight.com/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/dota-highlight_zpspl9gzf96.png",
-        "skills": [{"name":"Laravel 4.2"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Material Design"},{"name":"MailChimp"},{"name":"GIT"}]
-    },
-    {
-        "id": 7,
-        "name": "DPACK",
-        "href": "https://www.dell.com/learn/us/en/04/campaigns/dell-performance-analysis-collection-kit-dpack",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/dell-performance-analysis-collection-kit_zpsry6aeqjj.png",
-        "skills": [{"name":"C#"},{"name":"ASP.net MVC 5"},{"name":"RESTful APIs"},{"name":"SaSS"},{"name":"Microsoft SQL"},{"name":"TFS"}]
-    },
-    {
-        "id": 6,
-        "name": "RecordsHYIP Blog",
-        "href": "http://recordshyip.com/blog/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/recordshyip-blog_zpsxwdch81v.png",
-        "skills": [{"name":"WordPress"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Material Design"},{"name":"Responsive Web Design"},{"name":"Mailgun"},{"name":"jQuery"}]
-    },
-    {
-        "id": 5,
-        "name": "RecordsHYIP Monitor",
-        "href": "http://recordshyip.com/monitor",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/recordshyip-monitor_zpsep2sfaeb.png",
-        "skills": [{"name":"Laravel 4.2"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Responsive Web Design"},{"name":"Mailgun"},{"name":"Bootstrap 3.2"},{"name":"jQuery"}]
-    },
-    {
-        "id": 4,
-        "name": "Spider Web Service",
-        "href": "",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/spider-web-service_zpsvlzyfiuk.png",
-        "skills": [{"name":"C#"},{"name":"Apex"},{"name":"Flexera Software"},{"name":"SalesForce  and SOAP APIs"},{"name":"RESTful APIs"},{"name":"Microsoft SQL"},{"name":"SVN"}]
-    },
-    {
-        "id": 3,
-        "name": "Test Gear Online - Software",
-        "href": "",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/test-gear-online-software_zps8hhyl8pc.png",
-        "skills": [{"name":"ASP.NET MVC 4"},{"name":"Microsoft SQL"},{"name":"IIS 7.0"},{"name":"Bootstrap 3.0"},{"name":"TFS"},{"name":"jQuery"}]
-    },
-    {
-        "id": 2,
-        "name": "Test Gear Online - Website",
-        "href": "http://www.testgearonline.com/",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/test-gear-online_zps8pkn4rxo.png",
-        "skills": [{"name":"Drupal 7"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"GIT"},{"name":"jQuery"},{"name":"PSD to HTML"}]
-    },
-    {
-        "id": 1,
-        "name": "E-learning for Medial Education",
-        "href": "",
-        "screenshot": "http://i1073.photobucket.com/albums/w398/huyb1991/Portfolio/eme_zpsnbxmjfj6.png",
-        "skills": [{"name":"ASP.NET MVC 3"},{"name":"Microsoft SQL"},{"name":"IIS 7.0 Server"},{"name":"Bootstrap 2.0"},{"name":"TFS"},{"name":"PSD to HTML"}]
-    }
+  {
+    "id": 12,
+    "name": "Zenithb Bank Ltd",
+    "href": "http://zenithbgroups.us/",
+    "screenshot": "./src/img/projects/zenithb-bank-ltd.png",
+    "skills": [{"name":"PHP Smarty Template"},{"name":"PSD to HTML"},{"name":"Responsive web design"},{"name":"Bootstrap"},{"name":"jQuery"}]
+  },
+  {
+    "id": 11,
+    "name": "Exchange Zones",
+    "href": "https://exchangezones.co.in/Newlife/",
+    "screenshot": "./src/img/projects/exchange-zones.png",
+    "skills": [{"name":"PHP Smarty Template"},{"name":"PSD to HTML"},{"name":"Responsive web design"},{"name":"Bootstrap"},{"name":"jQuery"}]
+  },
+  {
+    "id": 10,
+    "name": "Personal Website",
+    "href": "http://huywd.com/",
+    "screenshot": "./src/img/projects/pweb.png",
+    "skills": [{"name":"AngularJS 1.5"},{"name":"Parse"},{"name":"GIT"}]
+  },
+  {
+    "id": 9,
+    "name": "The Luxury Closet",
+    "href": "http://theluxurycloset.com/",
+    "screenshot": "./src/img/projects/the-luxury-closet.png",
+    "skills": [{"name":"Yii 2.0"},{"name":"MySQL"},{"name":"Nginx Server"},{"name":"PHP memcached"},{"name":"Amazon Web Service"},{"name":"GIT"}]
+  },
+  {
+    "id": 8,
+    "name": "Dota Highlight",
+    "href": "http://dotahighlight.com/",
+    "screenshot": "./src/img/projects/dota-highlight.png",
+    "skills": [{"name":"Laravel 4.2"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Material Design"},{"name":"MailChimp"},{"name":"GIT"}]
+  },
+  {
+    "id": 7,
+    "name": "DPACK",
+    "href": "https://www.dell.com/learn/us/en/04/campaigns/dell-performance-analysis-collection-kit-dpack",
+    "screenshot": "./src/img/projects/dell-performance-analysis-collection-kit.png",
+    "skills": [{"name":"C#"},{"name":"ASP.net MVC 5"},{"name":"RESTful APIs"},{"name":"SaSS"},{"name":"Microsoft SQL"},{"name":"TFS"}]
+  },
+  {
+    "id": 6,
+    "name": "RecordsHYIP Blog",
+    "href": "http://recordshyip.com/blog/",
+    "screenshot": "./src/img/projects/recordshyip-blog.png",
+    "skills": [{"name":"WordPress"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Material Design"},{"name":"Responsive Web Design"},{"name":"Mailgun"},{"name":"jQuery"}]
+  },
+  {
+    "id": 5,
+    "name": "RecordsHYIP Monitor",
+    "href": "http://recordshyip.com/monitor",
+    "screenshot": "./src/img/projects/recordshyip-monitor.png",
+    "skills": [{"name":"Laravel 4.2"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"Responsive Web Design"},{"name":"Mailgun"},{"name":"Bootstrap 3.2"},{"name":"jQuery"}]
+  },
+  {
+    "id": 4,
+    "name": "Spider Web Service",
+    "href": "",
+    "screenshot": "./src/img/projects/spider-web-service.png",
+    "skills": [{"name":"C#"},{"name":"Apex"},{"name":"Flexera Software"},{"name":"SalesForce  and SOAP APIs"},{"name":"RESTful APIs"},{"name":"Microsoft SQL"},{"name":"SVN"}]
+  },
+  {
+    "id": 3,
+    "name": "Test Gear Online - Software",
+    "href": "",
+    "screenshot": "./src/img/projects/test-gear-online-software.png",
+    "skills": [{"name":"ASP.NET MVC 4"},{"name":"Microsoft SQL"},{"name":"IIS 7.0"},{"name":"Bootstrap 3.0"},{"name":"TFS"},{"name":"jQuery"}]
+  },
+  {
+    "id": 2,
+    "name": "Test Gear Online - Website",
+    "href": "http://www.testgearonline.com/",
+    "screenshot": "./src/img/projects/test-gear-online.png",
+    "skills": [{"name":"Drupal 7"},{"name":"MySQL"},{"name":"Apache Server"},{"name":"GIT"},{"name":"jQuery"},{"name":"PSD to HTML"}]
+  },
+  {
+    "id": 1,
+    "name": "E-learning for Medial Education",
+    "href": "",
+    "screenshot": "./src/img/projects/eme.png",
+    "skills": [{"name":"ASP.NET MVC 3"},{"name":"Microsoft SQL"},{"name":"IIS 7.0 Server"},{"name":"Bootstrap 2.0"},{"name":"TFS"},{"name":"PSD to HTML"}]
+  }
 ]
