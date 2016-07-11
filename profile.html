@@ -1,0 +1,9 @@
+<h1>About Me</h1>
+<img ng-src="{{ avatar }}" alt="Profile" class="profile-img">
+<div class="about"><p>{{ desc }}</p></div>
+<div class="social-icons">
+  <p>Contact Me:</p>
+  <span ng-repeat="social in socials">
+    <a href="{{ social.href }}" title="{{ social.title }}" target="_blank"><i class="{{ social.iconClass}}"></i></a>
+  </span>
+</div>

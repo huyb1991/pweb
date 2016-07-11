@@ -1,0 +1,32 @@
+[
+    {
+        "title": "StackOverflow",
+        "iconClass": "fa fa-stack-overflow",
+        "href": "http://stackoverflow.com/users/5456204/huy-nguyen"
+    },
+    {
+        "title": "GitHub",
+        "iconClass": "fa fa-github",
+        "href": "https://github.com/huyb1991"
+    },
+    {
+        "title": "Facebook",
+        "iconClass": "fa fa-facebook",
+        "href": "https://www.facebook.com/NietBan1991"
+    },
+    {
+        "title": "Twitter",
+        "iconClass": "fa fa-twitter",
+        "href": "https://twitter.com/huyb1991"
+    },
+    {
+        "title": "LinkedIn",
+        "iconClass": "fa fa-linkedin",
+        "href": "https://vn.linkedin.com/in/huyng"
+    },
+    {
+        "title": "Email to me",
+        "iconClass": "fa fa-envelope-o",
+        "href": "mailto:huyb.1991@gmail.com"
+    }  
+]

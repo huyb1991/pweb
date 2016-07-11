@@ -1,0 +1,34 @@
+<h1>Books</h1>
+<div id="book" class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 single-book" ng-repeat="book in books | orderBy:['-status','-id']">
+    <div class="panel">
+      <div class="panel-heading" style="background-image: url({{ book.img }});"></div>
+      <div class="panel-body text-center">
+        <div ng-if="book.status === 'done'">
+          <div class="panel-status status-success">
+            <i class="fa fa-check"></i>
+            <p>Done</p>
+          </div>
+        </div>
+        <div ng-if="book.status === 'reading'">
+          <div class="panel-status status-default">
+            <i class="fa fa-ellipsis-h"></i>
+            <p>Reading</p>
+          </div>
+        </div>
+        <div ng-if="book.status === 'problem'">
+          <div class="panel-status status-danger">
+            <i class="fa fa-exclamation"></i>
+            <p>Problem</p>
+          </div>
+        </div>
+        <h5 class="panel-title">{{ book.name }}</h5>
+        <div class="book-url">
+          <div ng-if="book.url !== ''">
+            <a href="{{ book.url }}" title="{{ book.name }}" target="_blank" class="btn btn-primary"><i class="fa fa-amazon"></i> View on Amazon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
