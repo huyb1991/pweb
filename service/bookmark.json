@@ -1,5 +1,17 @@
 [
   {
+    "id": 22,
+    "title": "BEMantic: DRY Like You Mean It",
+    "url": "https://medium.com/@stowball/bemantic-dry-like-you-mean-it-133ea3843d98",
+    "date": "2016-07-28"
+  },
+  {
+    "id": 21,
+    "title": "Meaningful CSS: Style Like You Mean It",
+    "url": "http://alistapart.com/article/meaningful-css-style-like-you-mean-it",
+    "date": "2016-07-28"
+  },
+  {
     "id": 20,
     "title": "4 Useful JavaScript Statements You Should Know",
     "url": "http://www.hongkiat.com/blog/useful-javascript-statements/",
