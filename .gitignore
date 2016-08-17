@@ -1,3 +1,4 @@
 /node_modules
-/src/js/min
-/src/sass/main.css
+/public/src/js/min
+/public/src/sass/main.css
+firebase-debug.log

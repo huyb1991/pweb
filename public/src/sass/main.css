@@ -30,7 +30,9 @@ summary {
 img {
   border-style: none; }
 
-@keyframes huywd-pop {
+@-webkit-keyframes huywd-pop,
+   @-moz-keyframes huywd-pop,
+        @keyframes huywd-pop {
   0% {
     opacity: 0;
     transform: matrix3d(0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -361,7 +363,7 @@ html {
 
 body {
   margin: 0;
-  background: #fafafa;
+  background-color: #fafafa;
   color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
@@ -451,7 +453,9 @@ a {
   .social-icon:hover {
     color: white; }
     .social-icon:hover:before {
-      animation: huywd-pop 1000ms linear both; }
+      -webkit-animation: 1000ms huywd-pop linear both;
+      -moz-animation: 1000ms huywd-pop linear both;
+      animation: 1000ms huywd-pop linear both; }
   .social-icon .fe {
     position: relative; }
 
