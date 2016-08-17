@@ -9,7 +9,6 @@ html {
 }
 body {
   margin: 0;
-  background: #fafafa;
   color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
@@ -18,6 +17,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: 50s colors infinite;
+     -moz-animation: 50s colors infinite;
+          animation: 50s colors infinite;
 }
 a {
   color: $color-primary;

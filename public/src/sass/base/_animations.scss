@@ -1,4 +1,6 @@
-@keyframes huywd-pop {
+@-webkit-keyframes huywd-pop,
+   @-moz-keyframes huywd-pop,
+        @keyframes huywd-pop {
   0% { opacity: 0; transform: matrix3d(0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   3.4% { opacity: 1; transform: matrix3d(0.384, 0, 0, 0, 0, 0.466, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   4.7% { transform: matrix3d(0.505, 0, 0, 0, 0, 0.639, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -25,4 +27,13 @@
   85.49% { transform: matrix3d(0.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   90.69% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+}
+@-webkit-keyframes colors,
+   @-moz-keyframes colors,
+        @keyframes colors {
+  0% { background-color: #fafafa; }
+  25% { background-color: #deeada; }
+  50% { background-color: #7cb7d3;}
+  75% { background-color: #e48a69; }
+  100% { background-color: #fafafa;}
 }
