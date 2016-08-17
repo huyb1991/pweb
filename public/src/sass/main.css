@@ -30,7 +30,9 @@ summary {
 img {
   border-style: none; }
 
-@keyframes huywd-pop {
+@-webkit-keyframes huywd-pop,
+   @-moz-keyframes huywd-pop,
+        @keyframes huywd-pop {
   0% {
     opacity: 0;
     transform: matrix3d(0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -86,6 +88,20 @@ img {
   100% {
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+@-webkit-keyframes colors,
+   @-moz-keyframes colors,
+        @keyframes colors {
+  0% {
+    background-color: #fafafa; }
+  25% {
+    background-color: #deeada; }
+  50% {
+    background-color: #7cb7d3; }
+  75% {
+    background-color: #e48a69; }
+  100% {
+    background-color: #fafafa; } }
 
 @font-face {
   font-family: 'fontello';
@@ -361,7 +377,6 @@ html {
 
 body {
   margin: 0;
-  background: #fafafa;
   color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
@@ -369,7 +384,10 @@ body {
   height: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: 50s colors infinite;
+  -moz-animation: 50s colors infinite;
+  animation: 50s colors infinite; }
 
 a {
   color: #1ca8dd;
@@ -451,7 +469,9 @@ a {
   .social-icon:hover {
     color: white; }
     .social-icon:hover:before {
-      animation: huywd-pop 1000ms linear both; }
+      -webkit-animation: 1000ms huywd-pop linear both;
+      -moz-animation: 1000ms huywd-pop linear both;
+      animation: 1000ms huywd-pop linear both; }
   .social-icon .fe {
     position: relative; }
 
