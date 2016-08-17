@@ -38,7 +38,11 @@
 
     &:hover {
       color: white;
-      &:before { animation: huywd-pop 1000ms linear both; }
+      &:before {
+        -webkit-animation: 1000ms huywd-pop linear both;
+           -moz-animation: 1000ms huywd-pop linear both;
+                animation: 1000ms huywd-pop linear both;
+      }
     }
 
     .fe {

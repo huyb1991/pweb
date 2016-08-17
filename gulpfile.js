@@ -17,35 +17,35 @@ gulp.task('connect', function() {
 
 // Compile sass
 gulp.task('sass', function() {
-  return gulp.src('./src/sass/**/*.scss')
+  return gulp.src('./public/src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./src/sass'));
+    .pipe(gulp.dest('./public/src/sass'));
 });
 
 // Minify CSS
 gulp.task('minify-css', ['sass'], function() {
-  return gulp.src('./src/sass/*.css')
+  return gulp.src('./public/src/sass/*.css')
     .pipe(cleanCSS())
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./public/'));
 });
 
 // Minify JS
 gulp.task('minify-js', function() {
-  return gulp.src('./src/js/*.js')
+  return gulp.src('./public/src/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('./src/js/min'));
+    .pipe(gulp.dest('./public/src/js/min'));
 });
 
 // Compress JS
 gulp.task('compress-js', ['minify-js'], function() {
-  return gulp.src('./src/js/min/*.js')
+  return gulp.src('./public/src/js/min/*.js')
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./public/'));
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./src/sass/**/*.scss'], ['minify-css']);
-  gulp.watch(['./src/js/*.js'], ['compress-js']);
+  gulp.watch(['./public/src/sass/**/*.scss'], ['minify-css']);
+  gulp.watch(['./public/src/js/*.js'], ['compress-js']);
 });
 
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['watch']);
