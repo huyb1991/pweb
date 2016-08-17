@@ -89,20 +89,6 @@ img {
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 
-@-webkit-keyframes colors,
-   @-moz-keyframes colors,
-        @keyframes colors {
-  0% {
-    background-color: #fafafa; }
-  25% {
-    background-color: #deeada; }
-  50% {
-    background-color: #7cb7d3; }
-  75% {
-    background-color: #e48a69; }
-  100% {
-    background-color: #fafafa; } }
-
 @font-face {
   font-family: 'fontello';
   src: url("src/fonts/fontello.eot");
@@ -377,6 +363,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #fafafa;
   color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
@@ -384,10 +371,7 @@ body {
   height: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-animation: 50s colors infinite;
-  -moz-animation: 50s colors infinite;
-  animation: 50s colors infinite; }
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   color: #1ca8dd;
