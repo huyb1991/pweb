@@ -1,7 +1,7 @@
 (function() {
   'use strict';
   angular
-    .module('personalApp', [
+    .module('app', [
       'ngRoute',
       'ngAnimate',
       'personalControllers'
