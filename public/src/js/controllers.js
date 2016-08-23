@@ -1,10 +1,6 @@
 var personalControllers = angular.module('personalControllers', []);
 personalControllers.controller('ProfileCtrl', ['$scope', '$http', ProfileCtrl]);
-personalControllers.controller('ProjectsCtrl', ['$scope', '$http', function($scope, $http) {
-    $http.get('service/project.json').then(function(response) {
-        $scope.projects = response.data;
-    });
-}]);
+personalControllers.controller('ProjectsCtrl', ['$scope', '$http', ProjectsCtrl]);
 personalControllers.controller('BooksCtrl', ['$scope', '$http', function($scope, $http) {
     $http.get('service/book.json').then(function(response) {
         $scope.books = response.data;
@@ -29,5 +25,11 @@ function ProfileCtrl($scope, $http) {
   });
   $http.get('service/social.json').then(function(response) {
     $scope.socials = response.data;
+  });
+}
+
+function ProjectsCtrl($scope, $http) {
+  $http.get('service/project.json').then(function(response) {
+    $scope.projects = response.data;
   });
 }
