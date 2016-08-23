@@ -3,11 +3,7 @@ personalControllers.controller('ProfileCtrl', ['$scope', '$http', ProfileCtrl]);
 personalControllers.controller('ProjectsCtrl', ['$scope', '$http', ProjectsCtrl]);
 personalControllers.controller('BooksCtrl', ['$scope', '$http', BooksCtrl]);
 personalControllers.controller('BookMarksCtrl', ['$scope', '$http', BookMarksCtrl]);
-personalControllers.controller('NavCtrl', ['$scope', '$location', function($scope, $location) {
-    $scope.isActive = function(viewLocation) {
-        return viewLocation === $location.path();
-    };
-}]);
+personalControllers.controller('NavCtrl', ['$scope', '$location', NavCtrl]);
 
 function ProfileCtrl($scope, $http) {
   $http.get('service/profile.json').then(function(response) {
@@ -36,4 +32,10 @@ function BookMarksCtrl($scope, $http) {
   $http.get('service/bookmark.json').then(function(response) {
     $scope.bookmarks = response.data;
   });
+}
+
+function NavCtrl($scope, $location) {
+  $scope.isActive = function(viewLocation) {
+    return viewLocation === $location.path();
+  };
 }
