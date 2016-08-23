@@ -2,11 +2,7 @@ var personalControllers = angular.module('personalControllers', []);
 personalControllers.controller('ProfileCtrl', ['$scope', '$http', ProfileCtrl]);
 personalControllers.controller('ProjectsCtrl', ['$scope', '$http', ProjectsCtrl]);
 personalControllers.controller('BooksCtrl', ['$scope', '$http', BooksCtrl]);
-personalControllers.controller('BookMarksCtrl', ['$scope', '$http', function($scope, $http) {
-    $http.get('service/bookmark.json').then(function(response) {
-        $scope.bookmarks = response.data;
-    });
-}]);
+personalControllers.controller('BookMarksCtrl', ['$scope', '$http', BookMarksCtrl]);
 personalControllers.controller('NavCtrl', ['$scope', '$location', function($scope, $location) {
     $scope.isActive = function(viewLocation) {
         return viewLocation === $location.path();
@@ -33,5 +29,11 @@ function ProjectsCtrl($scope, $http) {
 function BooksCtrl($scope, $http) {
   $http.get('service/book.json').then(function(response) {
     $scope.books = response.data;
+  });
+}
+
+function BookMarksCtrl($scope, $http) {
+  $http.get('service/bookmark.json').then(function(response) {
+    $scope.bookmarks = response.data;
   });
 }
