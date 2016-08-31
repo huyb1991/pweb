@@ -12,19 +12,23 @@
     $routeProvider
     .when('/', {
       templateUrl: 'src/template/profile.tpl.html',
-      controller: 'ProfileCtrl'
+      controller: 'ProfileCtrl',
+      controllerAs: 'profileVm'
     })
     .when('/projects', {
       templateUrl: 'src/template/projects.tpl.html',
-      controller: 'ProjectsCtrl'
+      controller: 'ProjectsCtrl',
+      controllerAs: 'projectVm'
     })
     .when('/books', {
       templateUrl: 'src/template/books.tpl.html',
-      controller: 'BooksCtrl'
+      controller: 'BooksCtrl',
+      controllerAs: 'bookVm'
     })
     .when('/bookmarks', {
       templateUrl: 'src/template/bookmarks.tpl.html',
-      controller: 'BookMarksCtrl'
+      controller: 'BookMarksCtrl',
+      controllerAs: 'bookMarkVm'
     })
     .otherwise({
       redirectTo:'/'

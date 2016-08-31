@@ -8,31 +8,39 @@
   .controller('NavCtrl', ['$scope', '$location', NavCtrl]);
 
   function ProfileCtrl($scope, $http) {
+    var vm = this;
+
     $http.get('service/profile.json').then(function(response) {
       var object = response.data;
-      $scope.desc = object.desc;
-      $scope.avatar = object.avatar;
+      vm.desc = object.desc;
+      vm.avatar = object.avatar;
     });
     $http.get('service/social.json').then(function(response) {
-      $scope.socials = response.data;
+      vm.socials = response.data;
     });
   }
 
   function ProjectsCtrl($scope, $http) {
+    var vm = this;
+
     $http.get('service/project.json').then(function(response) {
-      $scope.projects = response.data;
+      vm.projects = response.data;
     });
   }
 
   function BooksCtrl($scope, $http) {
+    var vm = this;
+
     $http.get('service/book.json').then(function(response) {
-      $scope.books = response.data;
+      vm.books = response.data;
     });
   }
 
   function BookMarksCtrl($scope, $http) {
+    var vm = this;
+
     $http.get('service/bookmark.json').then(function(response) {
-      $scope.bookmarks = response.data;
+      vm.bookmarks = response.data;
     });
   }
 

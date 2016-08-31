@@ -1,6 +1,6 @@
 <h1>Bookmarks</h1>
 <div>
-  <div ng-repeat="bookmark in bookmarks | orderBy:-id" class="bookmark">
+  <div ng-repeat="bookmark in bookMarkVm.bookmarks | orderBy:-id" class="bookmark">
     <a href="{{ bookmark.url }}" title="{{ bookmark.title }}" target="_blank" class="bookmark-title">{{ bookmark.title }}</a>
     <span class="bookmark-date">{{ bookmark.date | date : 'MMM dd, yyyy' }}</span>
   </div>
