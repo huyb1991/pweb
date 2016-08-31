@@ -31,7 +31,10 @@ gulp.task('minify-css', ['sass'], function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-  return gulp.src('./public/src/js/*.js')
+  return gulp.src([
+      './public/src/js/*.js',
+      '!./public/src/js/*.min.js'
+    ])
     .pipe(uglify())
     .pipe(gulp.dest('./public/src/js/min'));
 });
