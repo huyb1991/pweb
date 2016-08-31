@@ -9,6 +9,9 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "ignore": [
+      "node_modules/**"
     ]
   }
 }
