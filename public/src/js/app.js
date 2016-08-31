@@ -11,19 +11,19 @@
   function appConfig($routeProvider,$locationProvider) {
     $routeProvider
     .when('/', {
-      templateUrl: 'profile.html',
+      templateUrl: 'src/template/profile.tpl.html',
       controller: 'ProfileCtrl'
     })
     .when('/projects', {
-      templateUrl: 'projects.html',
+      templateUrl: 'src/template/projects.tpl.html',
       controller: 'ProjectsCtrl'
     })
     .when('/books', {
-      templateUrl: 'books.html',
+      templateUrl: 'src/template/books.tpl.html',
       controller: 'BooksCtrl'
     })
     .when('/bookmarks', {
-      templateUrl: 'bookmarks.html',
+      templateUrl: 'src/template/bookmarks.tpl.html',
       controller: 'BookMarksCtrl'
     })
     .otherwise({
