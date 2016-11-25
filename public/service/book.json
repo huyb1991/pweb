@@ -1,37 +1,93 @@
 [
   {
+    "id": 27,
+    "name": "Bố Già",
+    "img": "./src/img/books/bo-gia.jpg",
+    "url": "https://goo.gl/5Sr2aV",
+    "status": "reading"
+  },
+  {
+    "id": 26,
+    "name": "Ruồi Trâu",
+    "img": "./src/img/books/ruoi-trau.jpg",
+    "url": "https://goo.gl/lDaeMi",
+    "status": "reading"
+  },
+  {
+    "id": 25,
+    "name": "120 Ngày Nhìn Trộm",
+    "img": "./src/img/books/120-ngay-nhin-trom.jpg",
+    "url": "https://goo.gl/F3uxNg",
+    "status": "reading"
+  },
+  {
+    "id": 24,
+    "name": "Đúng Việc",
+    "img": "./src/img/books/dung-viec.jpg",
+    "url": "https://goo.gl/gZPH2I",
+    "status": "reading"
+  },
+  {
+    "id": 23,
+    "name": "Bóng Hình Của Gió",
+    "img": "./src/img/books/bong-hinh-cua-gio.jpg",
+    "url": "https://goo.gl/CmMD8v",
+    "status": "reading"
+  },
+  {
+    "id": 22,
+    "name": "Kẻ Trăn Trở",
+    "img": "./src/img/books/ke-tran-tro.jpg",
+    "url": "https://goo.gl/Q9rpl7",
+    "status": "reading"
+  },
+  {
+    "id": 21,
+    "name": "Thiếu Nữ Đánh Cờ Vây",
+    "img": "./src/img/books/thieu-nu-danh-co-vay.jpg",
+    "url": "https://goo.gl/FD6I9t",
+    "status": "done"
+  },
+  {
+    "id": 20,
+    "name": "Hỏa Ngục",
+    "img": "./src/img/books/hoa-nguc.jpg",
+    "url": "https://goo.gl/A18Ie5",
+    "status": "done"
+  },
+  {
     "id": 19,
     "name": "Thuật Đọc Nguội",
     "img": "./src/img/books/thuat-doc-nguoi.jpg",
-    "url": "https://tiki.vn/thuat-doc-nguoi-p155113.html",
+    "url": "https://goo.gl/gvSziu",
     "status": "reading"
   },
   {
     "id": 18,
     "name": "Vô Cùng Tàn Nhẫn, Vô Cùng Yêu Thương",
     "img": "./src/img/books/vo-cung-tan-nhan-vo-cung-yeu-thuong.jpg",
-    "url": "https://tiki.vn/vo-cung-tan-nhan-vo-cung-yeu-thuong-p66789.html",
+    "url": "https://goo.gl/tXaAFR",
     "status": "reading"
   },
   {
     "id": 17,
     "name": "Nhà Giả Kim",
     "img": "./src/img/books/nha-gia-kim.jpg",
-    "url": "https://tiki.vn/nha-gia-kim-p77142.html",
+    "url": "https://goo.gl/boq5Vk",
     "status": "done"
   },
   {
     "id": 16,
     "name": "Vũ Trụ Trong Vỏ Hạt Dẻ",
     "img": "./src/img/books/vu-tru-trong-vo-hat-de.jpg",
-    "url": "https://tiki.vn/vu-tru-trong-vo-hat-de.html",
+    "url": "https://goo.gl/D7rbGN",
     "status": "reading"
   },
   {
     "id": 15,
     "name": "Thiêng và Phàm",
     "img": "./src/img/books/thieng-va-pham.jpg",
-    "url": "https://tiki.vn/thieng-va-pham-p212399.html",
+    "url": "https://goo.gl/LjOoqM",
     "status": "reading"
   },
   {
@@ -43,93 +99,93 @@
   },
   {
     "id": 13,
-    "name": "Creator's Wisdom",
+    "name": "Tỉnh Thức (Creator's Wisdom)",
     "img": "./src/img/books/tinh-thuc.jpg",
-    "url": "",
+    "url": "https://goo.gl/kJOdyV",
     "status": "done"
   },
   {
     "id": 12,
-    "name": "The Power of Spiritual Intelligence",
+    "name": "Sức Mạnh Của Trí Tuệ Tâm Linh (The Power of Spiritual Intelligence)",
     "img": "./src/img/books/the-power-of-spiritual-intelligence.jpg",
-    "url": "http://www.amazon.com/gp/product/B008TGL06A/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B008TGL06A&linkCode=as2&tag=persowebs08e8-20&linkId=5EUDX5O4SKJ46F6Y",
+    "url": "https://goo.gl/A3y4Lv",
     "status": "done"
   },
   {
     "id": 11,
     "name": "Tự Yêu",
     "img": "./src/img/books/tu-yeu.jpg",
-    "url": "",
+    "url": "https://goo.gl/xgAzaU",
     "status": "done"
   },
   {
     "id": 10,
     "name": "Trên Đường Băng",
     "img": "./src/img/books/tren-duong-bang.jpg",
-    "url": "",
+    "url": "https://goo.gl/YP7IJd",
     "status": "done"
   },
   {
     "id": 9,
-    "name": "Never Eat Alone",
+    "name": "Đừng Bao Giờ Đi Ăn Một Mình (Never Eat Alone)",
     "img": "./src/img/books/never-eat-alone.jpg",
-    "url": "http://www.amazon.com/gp/product/0385346654/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385346654&linkCode=as2&tag=persowebs08e8-20&linkId=H3E75KGRBOJFFWPC",
+    "url": "https://goo.gl/3M5wG7",
     "status": "done"
   },
   {
     "id": 8,
-    "name": "How to Stop Worrying and Start Living",
+    "name": "Quẳng Gánh Lo Đi Và Vui Sống (How to Stop Worrying and Start Living)",
     "img": "./src/img/books/how-to-stop-worrying-and-start-living.jpg",
-    "url": "http://www.amazon.com/gp/product/0671733354/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671733354&linkCode=as2&tag=persowebs08e8-20&linkId=KFPAQ7NIVQWY6ONC",
+    "url": "https://goo.gl/vtxA8f",
     "status": "done"
   },
   {
     "id": 7,
-    "name": "Start-up Nation",
+    "name": "Quốc Gia Khởi Nghiệp (Start-up Nation)",
     "img": "./src/img/books/start-up-nation.jpg",
-    "url": "http://www.amazon.com/gp/product/0446541478/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0446541478&linkCode=as2&tag=persowebs08e8-20&linkId=YWD6Y2HTKP2I5OAP",
+    "url": "https://goo.gl/XvIKPA",
     "status": "done"
   },
   {
     "id": 6,
     "name": "Câu Chuyện Nhỏ - Đạo Lý Lớn",
     "img": "./src/img/books/cau-chuyen-nho-dao-ly-lon.jpg",
-    "url": "",
+    "url": "https://goo.gl/SrgjPl",
     "status": "done"
   },
   {
     "id": 5,
-    "name": "One Minute for Yourself",
+    "name": "Phút Nhìn Lại Mình (One Minute for Yourself)",
     "img": "./src/img/books/one-minute-for-yourself.jpg",
-    "url": "http://www.amazon.com/gp/product/0688163564/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0688163564&linkCode=as2&tag=persowebs08e8-20&linkId=AESQPTD44GPI3QAI",
+    "url": "https://goo.gl/zoSvEf",
     "status": "done"
   },
   {
     "id": 4,
-    "name": "Master Your Mind, Design Your Destiny",
+    "name": "Làm Chủ Tư Duy, Thay Đổi Vận Mệnh (Master Your Mind, Design Your Destiny)",
     "img": "./src/img/books/master-your-mind-design-your-destiny.jpg",
-    "url": "http://www.amazon.com/gp/product/B0096CH54M/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0096CH54M&linkCode=as2&tag=persowebs08e8-20&linkId=PC4KDQBFLBDQPBBD",
+    "url": "https://goo.gl/1HdG2F",
     "status": "done"
   },
   {
     "id": 3,
-    "name": "Why Simplify?",
+    "name": "Tại Sao Cần Đơn Giản (Why Simplify?)",
     "img": "./src/img/books/why-simplify.jpg",
-    "url": "http://www.amazon.com/gp/product/9814270032/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=9814270032&linkCode=as2&tag=persowebs08e8-20&linkId=AM24LBAZKHVKWET6",
+    "url": "https://goo.gl/JyvOTM",
     "status": "done"
   },
   {
     "id": 2,
     "name": "Buồn Làm Sao Buông",
     "img": "./src/img/books/buon-lam-sao-buong.jpg",
-    "url": "",
+    "url": "https://goo.gl/oPXlUZ",
     "status": "done"
   },
   {
     "id": 1,
-    "name": "How To Win Friends and Influence People",
+    "name": "Đắc Nhân Tâm (How To Win Friends and Influence People)",
     "img": "./src/img/books/how-to-win-friends-and-influence-people.jpg",
-    "url": "http://www.amazon.com/gp/product/0671027034/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0671027034&linkCode=as2&tag=persowebs08e8-20&linkId=G5EAE7SOUZRTR7XM",
+    "url": "https://goo.gl/zQ8h0j",
     "status": "done"
   }
 ]
