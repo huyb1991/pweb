@@ -327,12 +327,15 @@ img {
   text-align: center; }
 
 .box {
+  display: block;
   margin-bottom: 30px;
   background-color: #fff;
   border: 1px solid transparent;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
-  border-color: #ddd; }
+  border-color: #ddd;
+  color: #333;
+  cursor: pointer; }
 
 [class^="col-"] {
   padding: 0 0.5%;
