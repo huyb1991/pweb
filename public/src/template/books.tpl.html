@@ -1,7 +1,7 @@
 <h1>Books</h1>
 <div id="book" class="row">
   <div class="col-md-6 col-lg-3 single-book" ng-repeat="book in bookVm.books | orderBy:['-status','-id']">
-    <a href="{{ book.url }}" title="{{ book.name }}" class="box">
+    <a href="{{ book.url }}" title="{{ book.name }}" class="box" target="_blank">
       <div class="book-heading" style="background-image: url({{ book.img }});"></div>
       <h3 class="book-title">{{ book.name }}</h3>
       <div class="book-status book-status-{{ book.status }}">{{ book.status }}</div>
